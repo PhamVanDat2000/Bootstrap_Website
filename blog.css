@@ -1,0 +1,52 @@
+.content-about h3{
+	margin: 36px auto 20px;
+}
+
+.content-about .meta{
+	max-width: 460px;
+	display:flex;
+	/* justify-content: space-around; */
+}
+.content-about hr{
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.meta a,
+.meta p{
+	font-size: 10px;
+	color: #6e6e6e;
+}
+.meta .admin{
+	padding: 4px 24px 0;
+    background: url("./img/blog/agent.png") no-repeat;
+}
+.meta .date{
+	padding: 4px 24px 0;
+    background: url("./img/blog/calendar.png") no-repeat;
+}
+.meta .tag-relative{
+	padding: 4px 24px 0;
+    background: url("./img/blog/tag.png") no-repeat;
+}
+.meta .comment{
+	padding: 4px 24px 0;
+    background: url("./img/blog/chat.png") no-repeat;
+}
+.more-content{
+	display: flex;
+	justify-content: flex-end;
+	padding: 4px 12px 0;
+	background: url("./img/tooplate_list.png") no-repeat 302px 8px;
+}
+.pagination > li > a{
+    background-color: white;
+    color: #000;
+}
+.pagination > li:hover > a
+{
+    color: #000;
+}
+.pagination li{
+	padding:0 4px;
+}

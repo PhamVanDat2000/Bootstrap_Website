@@ -1,0 +1,55 @@
+label{
+	font-size: 15px;
+	color: #686868;
+	display: block;
+}
+p{
+	font-size: 13px;
+	color: #686868;	
+}
+input[type=text],
+input[type=email], select{
+	width: 70%;
+    padding: 0px 11px;
+    margin: 2px 0 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+	width: 100%;
+    padding: 2px 11px;
+    margin: 2px 0 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.buttonForm{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+input[type=submit],
+input[type=reset]{
+	font:bold 15px;
+	width: 60px;
+    padding: 2px 11px;
+    margin: 2px 0px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover{
+	background: #ffffff;
+	cursor: pointer;
+}
+.viewSmallMap{
+	margin: 88px 0 0;
+	width: 400px;
+	height: 394px;
+	background: #EBEBEC;
+}

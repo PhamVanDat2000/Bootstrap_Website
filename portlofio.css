@@ -1,0 +1,13 @@
+.img-port a{
+    width: 150px;
+    padding: 5px;
+    height: 163px;
+    width: 163px;
+    margin: 8px;
+    border: 1px solid #ccc;
+}
+.img-port{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

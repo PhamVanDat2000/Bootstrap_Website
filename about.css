@@ -1,0 +1,55 @@
+/* ========RIGHT========= */
+.para1 img{
+	padding:4px 12px 0 0;
+	float: left;
+}
+.para2 img{
+	padding:4px 12px 0 0;
+	float: right;
+}
+.content-about{
+	padding:40px  20px 28px 20px;
+}
+.content-about p{
+	font-size: 13px;
+	color:#686868;
+}
+.content-about img{
+	margin:0 auto;
+	display:block;
+}
+.content-about a{
+	font-size: 13px;
+	color: #01b8c7;
+}
+.about-elem-2{
+	padding:10px  20px 28px 20px;
+}
+.content-about hr{
+	margin: 28px 0 36px;
+}
+
+/* ========LEFT========= */
+.list-elem{
+	list-style: none;
+	font-size: 13px;
+}
+.list-elem li{
+    color: #52493a;
+    margin: 0 0 10px 0;
+    padding: 0 5px 0 20px;
+    background: url("./img/tooplate_list.png") no-repeat scroll 0 7px;
+
+}
+.flick-img{
+	margin: 10px auto;
+	max-width: 260px;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.flick-img a{
+	margin: 1px;
+	padding: 1px;
+	border: 1px solid #ccc;
+}
