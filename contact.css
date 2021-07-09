@@ -50,6 +50,10 @@ input[type=reset]:hover{
 .viewSmallMap{
 	margin: 88px 0 0;
 	width: 400px;
-	height: 394px;
+	height: 350px;
 	background: #EBEBEC;
+}
+
+.info{
+	margin-top: 48px;
 }

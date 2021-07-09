@@ -13,7 +13,7 @@
 
 <body>
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-md navbar-dark">
 		<a class="navbar-brand" href="./index.html"><img
 				src="https://www.tooplate.com/templates/2055_premium/images/tooplate_logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -21,7 +21,6 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse nav-collapse" id="navbarNavDropdown">
-			<div class="space"></div>
 			<ul class="navbar-nav">
 				<li class="nav-item active">
 					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -33,7 +32,7 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="#">Submenu 1</a>
 						<a class="dropdown-item" href="#">Submenu 2</a>
-						<a class="dropdown-item" href="#">Submenu 3</a>
+						<a class="dropdown-item last" href="#">Submenu 3</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -45,7 +44,7 @@
 						<a class="dropdown-item" href="#">Submenu 2</a>
 						<a class="dropdown-item" href="#">Submenu 3</a>
 						<a class="dropdown-item" href="#">Submenu 4</a>
-						<a class="dropdown-item" href="#">Submenu 5</a>
+						<a class="dropdown-item last" href="#">Submenu 5</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -71,11 +70,11 @@
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<img src="./img/slider_nav_left.png" alt="">
 			<span class="sr-only">Previous</span>
 		</a>
 		<a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<img src="./img/slider_nav_right.png" alt="">
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
@@ -132,7 +131,7 @@
 			<div class="col-xs-12 col-sm-6 col-md-3 content-elem-2">
 				<a href="#">Logo Design</a>
 				<a href="#">
-				<img src="./img/tooplate_image_02.jpg" alt="">
+					<img src="./img/tooplate_image_02.jpg" alt="">
 				</a>
 				<p>Mauris ac elit urna. Praesent faucibus tellus eget quam vulputate, id euismod lectus malesuada. Nunc
 					sit amet risus tortor. Fusce rutrum eget.</p>
@@ -140,7 +139,7 @@
 			<div class="col-xs-12 col-sm-6 col-md-3 content-elem-2">
 				<a href="#">Web Blog Posts</a>
 				<a href="#">
-				<img src="./img/tooplate_image_03.jpg" alt="">
+					<img src="./img/tooplate_image_03.jpg" alt="">
 				</a>
 				<p>Cras viverra, mi id placerat suscipit, ante est ullamcorper metus. Ut commodo tortor ut lacus
 					pharetra. Donec eget felis vel tortor varius a id est.</p>
@@ -148,7 +147,7 @@
 			<div class="col-xs-12 col-sm-6 col-md-3 content-elem-2">
 				<a href="#">Online Marketing</a>
 				<a href="#">
-				<img src="./img/tooplate_image_04.jpg" alt="">
+					<img src="./img/tooplate_image_04.jpg" alt="">
 				</a>
 				<p>Validate <a href="#">XHTML</a> and <a href="#">CSS</a>. Sed ac lacus a risus tristique vulputate sed
 					in turpis. Donec tincidunt mi ac elit interdum non congue turpis volutpat.</p>
@@ -156,35 +155,30 @@
 		</div>
 	</div>
 	<!-- Footer -->
-	<div class="container padding text-center footer-block">
+	<div class="container padding footer-block">
 		<div class="row padding ">
 			<div class="col-xs-12 col-md-4 footer-elem">
 				<h4>Blogroll</h4>
-				<a href="">Flash Templates</a>
-				<hr>
-				<a href="">Free Web Templates</a>
-				<hr>
-				<a href="">Flash Gallery</a>
-				<hr>
-				<a href="">CSS Templates</a>
-				<hr>
-				<a href="">Web Design Blog</a>
-				<hr>
+				<a class="col--1" href="">Flash Templates</a>
+				<a class="col--1" href="">Free Web Templates</a>
+				<a class="col--1" href="">Flash Gallery</a>
+				<a class="col--1" href="">CSS Templates</a>
+				<a class="col--1" href="">Web Design Blog</a>
 			</div>
 			<div class="col-xs-12 col-md-4 footer-elem">
 				<h4>Twitter</h4>
-				<p>Suspendisse at scelerisque urna. Vestibulum lobortis tellus nec augue placerat et scelerisque. <a
+				<p class="col--2">Suspendisse at scelerisque urna. Vestibulum lobortis tellus nec augue placerat et scelerisque. <a
 						href="#">http://bit.ly/13IwZO</a></p>
-				<hr>
-				<p>Proin dignissim, diam nec <a href="#">@forever</a> enim lorem tempus orci, ac imperdiet purus in
+
+				<p class="col--2">Proin dignissim, diam nec <a href="#">@forever</a> enim lorem tempus orci, ac imperdiet purus in
 					justo magna. <a href="#">http://bit.ly/Iuk00</a></p>
-				<hr>
+
 			</div>
 			<div class="col-xs-12 col-md-4 footer-elem">
 				<h4>About Us</h4>
 				<i>Nullam in tortor feugiat leo elementum posuere. Vivamus tempor accumsan arcu tristique tellus
 					placerat quis.</i>
-				<hr>
+
 				<div class="contact-icon">
 					<a href="#"><img src="./img/facebook.png" alt="Fb" title="Facebook"></a>
 					<a href="#"><img src="./img/flickr.png" alt="Flickr" title="Flickr"></a>
@@ -197,10 +191,6 @@
 
 		</div>
 	</div>
-
-
-
-
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
